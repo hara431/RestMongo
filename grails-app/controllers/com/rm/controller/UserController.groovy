@@ -10,6 +10,8 @@ import grails.rest.RestfulController;
 
 class UserController extends RestfulController {
 	
+	//I tried with respond but it's not working.
+	
 	@Secured(['permitAll'])
 	def getUser(){
 		def resMap = [:]
